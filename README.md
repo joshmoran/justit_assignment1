@@ -1,8 +1,15 @@
 # Just IT - Assignment 1
 
 # How this document is formatted
+>> Throughout I will be discussing specific sections / areas
+>> To review, please refer to "Chosen website - codeacademy - EDITRED.jpg"
 
-# Assignment 1 
+# Index System
+- 1. Assignment Task
+- 2. Web breakdown with specifics
+- 3. Media queries - mobile, tablet and desktop versions 
+  
+# 1. Assignment 1 
 ## WEBSITE CLONE PROJECT:
 ** Objective: ** Utilize your HTML and CSS skills to recreate the landing page of a website of your choice. This project is an opportunity to deepen your understanding of web design and development. 
 
@@ -28,3 +35,15 @@ Useful links:
 • https://www.cssportal.com/css-clip-path-generator/
 • https://favicon.io/favicon-generator/
 • https://hype4.academy/tools/glassmorphism-generator
+
+# 2. Web breakdown with specifics
+
+
+
+# 3. Media queries - mobile, tablet and desktop versions 
+### Pixel details 
+| Screen Size | Minimum Pixel Size | Maximum Pixel Size | 
+|:---:|:---:|:---:|
+| Mobile 
+| Tablet | 
+| Des
