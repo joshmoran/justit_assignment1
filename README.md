@@ -36,14 +36,35 @@ Useful links:
 • https://favicon.io/favicon-generator/
 • https://hype4.academy/tools/glassmorphism-generator
 
-# 2. Web breakdown with specifics
+# 2. Web breakdown 
+
+## Header 
+### Banner 
+- Shown no matter on what screen type 
+- Information on the most recent update / notification 
+
+### Navigation
+###
 
 
+## Article 1 
+### Carousel 
+- 
 
-# 3. Media queries - mobile, tablet and desktop versions 
+### Register an account 
+- Does not change format, style or sizing. 
+  - On mobile, it is below the carousel in a column
+  - On tablet and desktop, it is to the right of the carousel in a row
+
+## Article 2 
+###
+
+# 3. Colour and fonts 
+
+# 4. Media queries - mobile, tablet and desktop versions 
 ### Pixel details 
 | Screen Size | Minimum Pixel Size | Maximum Pixel Size | 
 |:---:|:---:|:---:|
-| Mobile 
-| Tablet | 
-| Des
+| Mobile | 0 | 490px
+| Tablet |  | | 
+| Desktop | | |
