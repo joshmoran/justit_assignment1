@@ -90,7 +90,18 @@ Useful links:
   - On Mobile and Tablet, you click the area and a limit of 4 courses are inserted below the clicked heading
   - On Desktop, all categories are above the content, clicking on the categories remove the content and add the relevant categories content
 
+## Article 4 - Showcasing their learning method, 'Hand-on learning'
+- Heading and small paragraph above always stay at the top, centered 
+- The content (image and selection boxes) vary to screen size
+  - On Mobile, the image and selection boxes are in a column, image at the top
+  - On Tablet and Desktop, the image and selection boxes are in a row, image to the right and selection boxes to the left
+- Content boxes once clicked reveal and un-hide the paragraph below
+
+## Article 5 - Career Checker Section, 'Job Readiness Checker'
+
+
 # 3. Colour and fonts 
+
 
 # 4. Media queries - mobile, tablet and desktop versions 
 ### Pixel details 
