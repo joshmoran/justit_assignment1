@@ -1,14 +1,14 @@
 # Just IT - Assignment 1
 
 # README & IMPORTANT - How this document is formatted
->> Throughout I will be discussing specific sections / areas
->> To review, please refer to "Chosen website - codeacademy - EDITRED.jpg"
+> Throughout I will be discussing specific sections / areas
+> To review, please refer to "Chosen website - codeacademy - EDITRED.jpg"
 
 # Index System
-- 1. Assignment Task
-- 2. Webpage breakdown 
-- 3. Colors and fonts
-- 4. Media queries - mobile, tablet and desktop versions 
+1. Assignment Task
+2. Webpage breakdown 
+3. Colors and fonts
+4. Media queries - mobile, tablet and desktop versions 
   
 # 1. Assignment 1 
 ## WEBSITE CLONE PROJECT:
@@ -334,7 +334,7 @@ Useful links:
 
 ### Effects 
 - Mobile and Tablet, only one image is shown on the left. On Desktop, the left column un-hides the second image
-- 
+- ]
 ## Footer 
 
 
