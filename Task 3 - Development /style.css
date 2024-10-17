@@ -781,8 +781,16 @@ div#article4extrainfo {
 
 /* Footer */
 footer {
-
+    width: 100%:
 }
+
+#links {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.store, #links img {
+	width: 5vw;
 #tandc {
     padding: 50px auto;
 }
