@@ -1457,7 +1457,7 @@ footer a:visited {
     #links {
         display: grid;
         margin: 0 auto;
-        grid-template-columns: auto auto auto auto auto auto ;
+        grid-template-columns: auto auto auto;
         width: fit-content;
     }
 }
@@ -1466,7 +1466,7 @@ footer a:visited {
     
 }
 
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 1024px) {
     #courseSelect {
         display: none;
     }
@@ -1479,5 +1479,8 @@ footer a:visited {
         grid-template-columns: 25% 25% 25% 25%;
     }
 
+    #links {
+        grid-template-columns: auto auto auto auto auto auto;
+    }
 
 } 

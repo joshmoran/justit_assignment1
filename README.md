@@ -396,5 +396,5 @@ Try to implement responsiveness into your design with media queries.
 | Screen Size | Minimum Pixel Size | Maximum Pixel Size | 
 |:---:|:---:|:---:|
 | Mobile | 0 | 490px
-| Tablet |  | | 
-| Desktop | | |
+| Tablet | 480px | null| 
+| Desktop | 1024px | |
