@@ -210,7 +210,7 @@ Try to implement responsiveness into your design with media queries.
 - Button on hover = #e2d6cf
 
 #### Effects 
-- Original carousel image (first button selected) set a Background image = '/images/sections/
+- Original carousel image (first button selected) set a Background image
 - Desktop view, added an extra button on the end, allowing pausing and playing the carousel, with the relevant image to go with the current state
 - On any view, clicking one of the five buttons changes the background carousel picture and the text on the heading and two paragraphs within the carousel, each buttons changes all four elements
 - Hovering over a carousel button, shows a darker color and a small padding around 

@@ -448,7 +448,8 @@ svg.carouselSvg {
     width: 85%;
     background-color: #fef0e5;
     margin: 0 auto;
-    z-index: 2;
+    margin-top: 3em;
+    padding: 3em 0;
 }
 
 #article2container * {
@@ -457,8 +458,8 @@ svg.carouselSvg {
 
 #article2svg {
     width: 100%;
-    margin-top: -4em;
-    height: 50em;
+    margin-top: 0em;
+    height: 54em;
     position: absolute;
     z-index: 0;
 }
@@ -630,13 +631,15 @@ select#courseSelect {
 /* items within article 3 */
 #article3list {
     width: 95vw;
+    display: flex;
+    flex-direction: row;
     margin: 0.25em 2.5vw;
 }
 
 .article3item {
     width: 90%;
     background-color: #ffffff;
-    margin: 0.3em auto;
+    margin: 1em auto;
     justify-content: space-between;
 }
 
@@ -986,6 +989,8 @@ p#article5description {
 
 #article6logos {
     color: #a7acb2;
+    display: flex;
+    flex-direction: row;
     flex-basis: 50%;
     flex-wrap: wrap;
     display: flex;
@@ -1026,7 +1031,9 @@ p#article5description {
 }
 
 #article7people {
-    width: 90vw;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
     margin: 0.5em auto;
 }
 
@@ -1216,6 +1223,8 @@ p#article5description {
 footer {
     width: 100%;
     background-color: #fef0e5;
+    display: flex;
+    flex-direction: column;
 }
 
 footer li {
@@ -1304,9 +1313,171 @@ footer a:visited {
     text-align: center;
 }
 
-/* @media only screen and (min-width: 540px ) {
-    justify-content: space-evenly
+@media only screen and (min-width: 480px) {
+
+    #article1 {
+        flex-direction: row;
+        background-color: #fef0e5;
+        height: fit-content;
+    }
+
+    #carousel, #article1Form {
+        width: 50%;
+    }
+
+    #article1Form {
+        margin-top: 8em;
+    }
+    .carouselSvg {
+        width: 100% !important;
+        height: 43em !important;
+    }
+
+    #carouselBackground {
+        width: 50% !important;
+    }
+    
+    #carouselTitle {
+        width: 27% !important;
+    }
+
+    #carouselText1, #carouselText2 {
+        width: fit-content;
+    }
+
+    #carouselText1 {
+        top: 31em !important
+    }
+
+    #carouselText2 {
+        top: 33em !important
+    }
+
+    #article2 {
+        padding-top: 1em;
+        margin-top: 0;
+    }
+
+    #article2container .twoCols {
+        text-align: center;
+    }
+    
+    #article2container .twoCols p {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #article2options {
+       flex-direction: row;
+    }
+
+    #article2options > div:first-child {
+        width: 10%;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 1em;
+    }
+
+    #options2 {
+        width: 40%;
+    }
+
+    #picture2 {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    #article2picture {
+        width: 40%;
+        height: auto;
+    }
+
+    #article3list {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #article4Content {
+        flex-direction: row;
+    }
+
+    #article5 {
+        flex-direction: row;
+        padding: 2em 0;
+    }
+
+    #article6 {
+        flex-direction: row;
+        
+    }
+
+    #article6 > div {
+        width: 40%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    #article6logos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+    }
+
+    #article6logos img{
+        width: 100% !important;
+        max-width: 10em;
+    }
+
+    #article7people {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .storiesChildren img {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .article8details  {
+        flex-direction: row;
+    }
+    
+    .article9img {
+        display: flex;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #links {
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: auto auto auto auto auto auto ;
+        width: fit-content;
+    }
 }
 
+@media only screen and (min-width: 480x ) and (max-width: 992px ) {
+    
+}
 
- */
+@media only screen and (min-width : 992px) {
+    #courseSelect {
+        display: none;
+    }
+
+    #article3list {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    #article7people {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+
+} 
