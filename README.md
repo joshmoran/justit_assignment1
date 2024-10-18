@@ -157,9 +157,11 @@ Try to implement responsiveness into your design with media queries.
 > I used 'Microsoft Power toys - Color Selector' Feature to get these colors 
 
 ## Fonts 
-- On Body and Div = 'sans serif'
+- On Body and Div = font-family: "Apercu",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 
 ## Header 
+- On Mobile, the header is always fixed a the top of the page 
+
 ### Banner
 #### Colors 
 - Background Color = #10162f
@@ -173,13 +175,12 @@ Try to implement responsiveness into your design with media queries.
   
 ### Navigation
 #### Colors
-- Background color = #fff0e5
-- Desktop View, Nav button on hover  = #9362e5
-- Desktop View, Nav button text color = #10162F
-- Codeacademy Logo on hover = #3a10e5
-- Search icon, 'Log In', and collapsed menu (mobile and tablet screen size) on hover = #3a10e5
-- Sign up Button, text color = #ffe2ff
-- Sign up Button, background color = #5533ff
+- Background color = #fef0e5
+- All elements, except sign up button text color = #151725
+- All elements, except sign up button text on hover = #3b09ec
+- Sign up Button, text color = #fff
+- Sign up Button, background color = #3b09ec
+- Sign up button, on hover = #5533ff
 
 #### Effects 
 - Code academy logo on hover changes from grey to the hovered colour 
@@ -192,9 +193,16 @@ Try to implement responsiveness into your design with media queries.
 ## Article 1
 ### Carousel 
 #### Colors 
-- Button selected = #10162f
+- Background image = 'Task 2 - Analysis and Design/layers/article1 sprite grid.svg'
+- Title, text color = #0c1330
+- Title, background color = #fbf1e8
+- Two paragraphs, text color = #deede6
+- Two paragraphs, background color = #000000
+- Two paragraphs, plus icon = #bfbab6
+- Button active background color = #06152f
+- Button inactive background color = #fbf1e8
+- Button inactive border color = #06152f
 - Button on hover = #e2d6cf
-- Button background = #fff0e5
 
 #### Effects 
 - Original carousel image (first button selected) set a Background image = '/images/sections/
@@ -205,20 +213,23 @@ Try to implement responsiveness into your design with media queries.
 
 ### Register an account
 #### Colors 
-- Title color = #10162f, bolded
-- Text Colour = #10162F
-- Any other text color = #10162f
-- Input element when selected border color = #3a10e5
-- Input element, error color (email already taken, password not strong enough) = #be1809
-- 'Sign Up' Button background color = #3a10e5
-- 'Sign Up' Button text color = #ffffff
-- 'Sign Up' Button on click event = #fff0e5, transparent
-- Terms and conditions text color = #2b3045
-- terms and conditions hyperlink colour = #3a22e5, underlined 
-- Terms and conditions hover color = #3a22e5, not underlined
-- 'Or sign up using' text color = #10162f
-- 'Or sign up using' background color = #ffffff
-- 'Or sign up using' on hover background color = #e2d6cf
+- Background color = #fff4e6
+- Title text color = #15062f
+- Required text color = #321515
+- Label text color = #43423c
+- Input border = 2px solid #000
+- Input border on focus = 4px solid #3a10e5
+  Input border error color (e.g. email already taken, password not strong enough) = #be1809
+- Sign up button background color = #3a0ce4
+- Sign up text color = #15062f
+- Sign up background color on hover = #15062f
+- Sign up background color on active state = #fff0e5
+- Terms and conditions text color = ##7e6467
+- Terms and conditions hyperlinks text color = #3f246d underlined
+- Terms and conditions hyperlinks text color on hover  = #3f246d non-underlined
+- Providers title text color = #241506
+- Providers background color = #e2d6cf
+- Providers background color on hover = #10162f
 
 #### Effects 
 - Hyperlinks in the terms and conditions are normally underlined, when clicked they loose the underline, color does not change 
@@ -228,16 +239,19 @@ Try to implement responsiveness into your design with media queries.
 
 ## Article 2 - Questionnaire, 'Find what's right for you'
 ### Colors 
-- Background Image = '/images/sections/
+- Background Image = 'Task 2 - Analysis and Design/layers/article2 sprite.svg'
   - Content has a large margin around so both the image and color can be seen 
-- Background color = #fff0e5
-- Title color = #10162f
-- Text color = #2b3045
-- Border around categories = #cec4c1
-- Background color of categories = #ffffff
-- Background color of categories when hovered = #f5f5f5
-- Buttons, enabled, background color = #8a858c
-- Buttons, disabled, background color = #beb4b3
+- Background color = #fef0e5
+- Title color = #111325
+- Text color = #6d5968
+- Sub text color (What do ypu want to learn about) = #11132a
+- Border around answers = #5a5657
+- Answer text color = #3f3d47
+- Background color of answers = #ffffff
+- Background color of answers when hovered = #5a5657
+- Button border  color = 1px solid #171120
+- Buttons, active border color = 1px solid #171120
+- Buttons, inactive border color = 1px solid #686672
 
 #### Effects 
 - Category when hovered is dimmed and a darker color is used, shows interactivity
@@ -246,13 +260,22 @@ Try to implement responsiveness into your design with media queries.
 
 ## Article 3 - Selection of courses available 
 ### Colors 
+- Background color = #0c132f
 - Title color = #ffffff
-- Background color = #10162f
-- Free course banner background color = #eafdc6
-- Career course banner background color = #10162f
-- 'Explore full catalog' background color = #cca900
-- 'Explore full catalog' text color = #10162f
-- Catalog options border top color = ffffff
+- Text color = #fff
+- Course free course banner background color = #eafdc6
+- Course free course banner text color = #000
+- Course career path banner background color = #fff
+- Course career path banner text color = #000
+- Course background color = ##ffffff
+- Course text color, title and text = ##000
+- Course border color = 2px solid #151515
+- 'Explore full catalog' background color = #ffd300
+- 'Explore full catalog' text color = #0f2000
+- 'Explore full catalog' background color on hover = #fef0e5
+- Catalog options border top color = #effefb
+- Line color (at bottom) = #848a97
+- Title text color (at bottom) = #effefb
 
 ### Effects
 - Able to click on a course category, the courses are refreshed and shows courses relevant to that category
@@ -264,18 +287,19 @@ Try to implement responsiveness into your design with media queries.
 
 ## Article 4 - Showcasing their learning method, 'Hand-on learning'
 ### Colors 
-- Background color = #10162f
-- Title text color = #ffffff
-- Inactive section text color = #afb1b9
-- Active section background color = #262b42
-- Active section title text color = #ffffff
-- Active section paragraph text color = #b3b5bd
-- 'Get started' text color = #10162f
-- 'Get started' background color = #cca900
-- 'Get started' on hover background color = #ffd300
-- 'Explore features' text color = #ffd30a
-- 'Explore features' background color = #10162f
-- 'Explore features' on hover background color = #262b42
+- Background color = #0c132f
+- Text above title text color = #ffe1e1
+- Title text color = #fffbf6
+- Active section (AI-assisted learning) background color = #252941
+- Active section title text color = #fff
+- Active section paragraph text color = #fff
+- Inactive section title text color = #a6b3b9
+- 'Get started' text color = #251300
+- 'Get started' background color = #fdd400
+- 'Get started' on hover background color = #fffbf6
+- 'Explore features' text color = #fdd400
+- 'Explore features' background color = #0c132f
+- 'Explore features' on hover background color = #fffbf6
 
 ### Effects 
 - Clicking on a section, replaces the initial picture/video with a relevant image/video
@@ -285,27 +309,29 @@ Try to implement responsiveness into your design with media queries.
 
 ## Article 5 - Career Checker Section, 'Job Readiness Checker'
 ### Colors 
-- Background color = #fffae5
-- Media border color = #262835
-- Title text color = #10162f, bolded
-- Paragraph text color = #10162f
-- 'Try it out' background color = #fffae5
-- 'Try it out' text color = #3a10e5
+- Background color = #fcfae3
+- Image border = 1px solid #898579
+- Paragraph above title (AI.... ) text color = #1a0f15
+- Title text color = #151129
+- Paragraph text color = #281515
+- 'Try it out' background color = #fcfae3
+- 'Try it out' text color = #3219ae
 - 'Try it out' on hover = #e2dfcf
 
 ### Effects 
 - Interactivity on the button, shows if the button/link is hovered
 - Bottom right of the media is a play/pause button, adds interactivity to the media 
 
-
 ## Article 6 - Showing partnerships, code academy helping to engage organizations to reach their goals with technical training
 ### Colors 
-- Background color = #10162f
+- Background color = #0c132f
+- 'Teams' text right of code academy logo = #fff
 - Title text color = #ffffff
 - Paragraph text color = #ffffff
-- 'Explore business plans' background color = #ffd300
-- 'Explore business plans' text color = #10162f
-- 'Explore business plans' on hover background color = #cca900
+- 'Explore business plans' background color = #fdd400
+- 'Explore business plans' text color = #251c00
+- 'Explore business plans' border = 2px solid #261700;
+- 'Explore business plans' on hover background color = #ffffff
 - Organizations logo color = #acaeb6
 
 ### Effects 
@@ -313,17 +339,14 @@ Try to implement responsiveness into your design with media queries.
 
 ## Article 7 - Stories and personal accounts for using code academy, 'Stories from real people'
 ### Colors 
-- Background image slighly used at the top of this section = 'images/
 - Background color = #fff0e5
-- Title text color = #10162f
-- Paragraph text color = #10162f
-- Individuals story border = #000080
-- Individuals story title text color = ##10162F
-- Individuals story paragraph text color = ##10162F
-- Individuals story text color on hover = #3a10e5
-- 'Explore more stories' text color = #3a45e5
-- 'Explore more stories' background color = #fff0e5
-- 'Explore more stories' background color on hover = #e2d6cf, with padding 
+- Title text color = #13172d
+- Title paragraph text color = #300c1c
+- Individual story image border = 1px solid #0c0329
+- Individual title text color = #0c0c2e
+- Individual paragraph text color = #210c29
+- Individual hover color = #3f0fc3
+- Explore link text color = #fff0e5
 
 ### Effects 
 - Hovering over an individual changes the black text to the hovered color of blue 
@@ -332,20 +355,20 @@ Try to implement responsiveness into your design with media queries.
 ## Article 8
 ### Colors 
 - Background color = #ffd300
-- Title text color = #10162f
-- Paragraph text color = #10162f
+- Title text color = #0f1511
+- Paragraph text color = #0f1511
 
 ### Effects
 - Not applicable  
 
 ## Article 9
 ### Colors 
-- Background color = #3a10e5
-- Title text color = #ffffff
-- Paragraph text color = #ffffff
-- 'Sign up' background color = #ffd300
-- 'Sign up' text color = #10162f
-- 'Sign up' background color on hover = #cca900
+- Background color = #3a0ce4
+- Title text color = #fffdff
+- Paragraph text color = #e9fcff
+- 'Sign up' background color = #ffd200
+- 'Sign up' text color = #1c1f00
+- 'Sign up' background color on hover = #6049e5
 
 ### Effects 
 - Mobile and Tablet, only one image is shown on the left. On Desktop, the left column un-hides the second image
@@ -353,11 +376,11 @@ Try to implement responsiveness into your design with media queries.
 - 'Sign up' a white border is added around when the button is clicked
 
 ## Footer 
-### Colours 
-- Background color = #fff0e5
-- Text colour = #10162f
-- Text colour on hover = #6049e5
-- Text colour on clicked = #6049e5
+### Colors 
+- Background color = #fef0e5
+- Text colour = #060c13 
+- Text colour on hover and clicked = #6049e5
+- Logo Colors = #0f1529
 
 ### Effects 
 - Links in the footer, change from grey to blue, on hover and clicked state 
