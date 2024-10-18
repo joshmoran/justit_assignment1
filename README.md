@@ -5,6 +5,11 @@
 
 > To review, please refer to "Chosen website - codeacademy - EDITRED.jpg"
 
+> In the folder 'Task 2 - Analysis and Design' Please find a complete screen view for 
+> - Mobile view
+> - Tablet View 
+> - Desktop 
+
 # Index System
 1. Assignment Task
 2. Webpage breakdown 
